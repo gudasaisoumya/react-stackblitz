@@ -1,3 +1,41 @@
-h1, p {
+h1,
+p {
   font-family: Lato;
+}
+table,
+th,
+td {
+  border-collapse: collapse;
+  border: 3px solid rgb(250, 245, 245);
+}
+li {
+  font-size: large;
+}
+body {
+  background: #0f0f0f;
+  font: 14px "Nunito", sans-serif;
+  color: aliceblue;
+  text-align: center;
+}
+.center {
+  margin: auto;
+  margin-top: 10%;
+  width: 50%;
+  border: 3px solid rgb(111, 250, 118);
+  padding: 10px;
+}
+
+.button {
+  font-size: 16px;
+  background: rgb(241, 135, 135);
+  padding: 10px 20px;
+  transition: all 0.3s;
+  outline: none;
+  border-radius: 35px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+button:hover {
+  background: rgb(219, 219, 219);
 }
