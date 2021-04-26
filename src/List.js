@@ -18,6 +18,7 @@ export default class List extends React.Component {
 
   componentDidMount() {
     //  localStorage.clear();
+    alert("mounted");
     var count = localStorage.getItem("count");
     var tasks = localStorage.getItem("tasks");
     var date = localStorage.getItem("date");

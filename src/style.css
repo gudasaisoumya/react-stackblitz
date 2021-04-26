@@ -2,12 +2,7 @@ h1,
 p {
   font-family: Lato;
 }
-table,
-th,
-td {
-  border-collapse: collapse;
-  border: 3px solid rgb(250, 245, 245);
-}
+
 li {
   font-size: large;
 }
